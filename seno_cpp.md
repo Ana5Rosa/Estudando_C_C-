@@ -2,13 +2,15 @@
 
 O programa utiliza linguagens C e C++. Sua função é calcular o seno pela série de Taylor. 
 
+![](C:\Users\anacl\Desktop\Ana\Estudando_C_C++\seno.png)
+
 O programa pede o valor de X ao usuário em graus. Se o usuário digitar um numero negativo para X o programa apresenta erro e pede para digitar novamente. 
 
 A partir disso o programa pede também o valor de parcelas que o usuário deseja. A quantidade de parcelas não pode ser menor ou igual a 0, ou o usuário terá que digitar novamente o valor. 
 
 Após isso o programa transforma o valor de X em graus para radiano. Pois a fórmula de Taylor utiliza o valor em radiano. 
 
-O desafio desse programa era não utilizar nenhuma fórmula matemática da biblioteca do C/C++. Então solucionei o problema utilizando o comando for. 
+**O desafio desse programa era não utilizar nenhuma fórmula matemática da biblioteca do C/C++.** Então solucionei o problema utilizando o comando for. 
 
 ## For para calcular as parcelas:
 
