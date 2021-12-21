@@ -26,8 +26,8 @@ int main()
     // transformar X para radiano
     x_radiano = (M_PI * x_graus) / 180;
 
-    // InicializaÁ„o das vari·veis para c·culo
-    sinal_parcela = 1; // Verifica se a prÛxima conta soma ou diminui
+    // Inicializa√ß√£o das vari√°veis para c√°lculo
+    sinal_parcela = 1; // Verifica se a pr√≥xima conta soma ou diminui
     valor_parcela = 1;
     seno_x = 0;
 
