@@ -26,11 +26,12 @@ int main()
     // transformar X para radiano
     x_radiano = (M_PI * x_graus) / 180;
 
-    // looping das parcelas
+    // Inicialização das variáveis para cáculo
     sinal_parcela = 1; // Verifica se a próxima conta soma ou diminui
-
     valor_parcela = 1;
+    seno_x = 0;
 
+    // looping das parcelas
     for(int i = 1; i <= n_parcelas; i++)
     {
         expoente = 1;
